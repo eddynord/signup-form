@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+     <script defer src="app.js"></script> <!--defer SO IT LOADS AFTER THE BODY -->
+    <title>Component with sign up</title>
+</head>
+<body>
+    <main class="container">
+        <div class="desc1">
+            <div class="content">
+                <h1>Learn to code by <br>watching others</h1>
+                <p>See how experienced developers solve problemes in real-time.<br>Watching scripted tutorials is great, but understanding how <br>developers think is invaluable.</p>
+            </div>
+        </div>
+        
+        <div class="signin">
+            <div class="signin-content">
+                <div class="trybtn">
+                    <a href="#"><button>Try it free 7 days <span>then $20/mo. thereafter</span></button></a>
+                </div>
+                <div class="form">
+                    <form action="/main.html"id="form-input" method="GET">
+                        <div class="form-floating mb-3">
+                            
+                            <input type="firstname" class="form-control" id="firstname" placeholder="&nbsp;&nbsp;First Name" required>
+                            <span class="error"><img src="images/icon-error.svg" alt="#"></span>
+                        </div>
+                        <div class="form-floating">
+                            <input type="lastname" class="form-control" id="lastname" placeholder="&nbsp;&nbsp;Last Name" required>
+                            <span class="error"><img src="images/icon-error.svg" alt="#"></span>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="email" placeholder="&nbsp;&nbsp;Email Address" required>
+                            <span class="error"><img src="images/icon-error.svg" alt="#"></span>
+                        </div>
+                        <div class="form-floating">
+                            <input type="password" class="form-control" id="password" placeholder="&nbsp;&nbsp;Password" required>
+                            <span class="error"><img src="images/icon-error.svg" alt="#"></span>
+                        </div>
+                        <div class="trialbtn">
+                            <a href="#"><button type="submit" name="submit">CLAIM YOUR FREE TRIAL</button></a>
+                        </div>
+                    </form>
+                    
+                    <div class="disclaimer">
+                        <p>By clicking the button, you are agreeing to our <span class="terms"><a href="#">Terms and Services</a></span></p>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+
+    </main>
+    
+</body>
+</html>
